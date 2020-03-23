@@ -1,0 +1,115 @@
+/* Basics */
+.lightBlue{
+    background-color: #DBE8F1;
+}
+.lightBlueText{
+    color: #DBE8F1;
+}
+.lightBrown{
+    color: #C6B098;
+}
+.brown{
+    color: #a57a50;
+}
+.display{
+    font-family: delaney, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+h1, .h1{
+    font-family: delaney, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+h2, .h2{
+    font-family: delaney, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+h3{
+    font-family: delaney, sans-serif;
+    font-size: 18px;  
+    font-style: normal;
+    font-weight: 400;
+}
+.h3{
+    font-family: delaney, sans-serif;
+    font-size: 18px;  
+    font-style: normal;
+    font-weight: 400;
+}
+p, .p{
+    font-size: 16px;
+}
+
+
+/* Nav Section */
+.logo{
+    height: 50px;
+    width: 150px;
+}
+
+
+
+/* Home Section*/
+.homeContainer{
+    background-image: url(../imgs/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+/* About Section*/
+.aboutHeader{
+    margin: 50px 0;
+}
+.aboutLogo{
+    height: 20px;
+    width: 70px; 
+}
+.aboutImg{
+    float: right;
+    height: 186px;
+    margin: 0 0 6px 6px;
+    width: 200px;
+}
+
+
+/* Shop Section */
+.shopBtn{
+    padding-left: 20px;
+    height: 95px;
+    margin: 10px 0;
+    width: 100vw;
+}
+.coffeeShopImg{
+    height: 50px;
+    width: 50px;
+}
+.expressoShopImg{
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Footer Section */
+
+.fImg{
+    height: 50px;
+    margin-left: 28%;
+    width: 50px;
+}
+.iImg{
+    height: 58px;
+    width: 75px;
+}
+.tImg{
+    height: 57px;
+    width: 57px;
+}
