@@ -8,8 +8,9 @@
     <!-- End of Meta Tags -->
 
     <!-- Css Links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <!-- End of Css Links -->
 
     <!-- Fonts -->
@@ -25,7 +26,36 @@
 <!-- Container -->
 <div class="homeContainer">
     <!-- Nav Bar -->
-    <nav class="lightBlue navbar sticky-top navbar-light">
+    <nav class="light-blue-bg navbar sticky-top navbar-light">
+        <!-- Hamburger Menu Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <i class="fas fa-bars brown-text"></i>
+            </span>
+        </button>
+        <!-- End of Hamburger Menu Button -->
+
+        <!-- Nav List -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link text-left heading-three" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-left heading-three" href="pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-left heading-three" href="pages/shop.html">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link text-left heading-three" href="#">Cart</a>
+                </li>
+                <li class="nav-item dropdown heading-three">
+                <a class="nav-link text-left" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of Nav List -->
 
         <!-- Logo -->
         <a class="navbar-brand" href="#">
@@ -33,65 +63,51 @@
         </a> 
         <!-- End of Logo -->
         
-        <!-- Hamburger Menu Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- End of Hamburger Menu Button -->
-        
-        <!-- Nav Listt -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link text-right h3" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-right h3" href="pages/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-right h3" href="pages/shop.html">Shop</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link text-right h3" href="#">Cart</a>
-                </li>
-                <li class="nav-item dropdown h3">
-                <a class="nav-link text-right" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- End of Nav List -->
+        <!-- Cart Icon -->
+        <span>
+            <a href="">
+                <i class="fas fa-shopping-cart brown-text"></i> 
+            </a>
+        </span>
+        <!-- End of Cart Icon -->
 
     </nav>
     <!-- End of Nav Bar -->
 
     <!-- Content -->
-    <div class="welcome display lightBlueText text-center">
-        <span class="welcome"> Welcome to </span> 
-        <img class="welcome logo rounded mx-auto d-block" src="imgs/logoBlue.png" alt="coffee">
+    <div class="welcome display light-blue-text text-center">
+        <span> Welcome to </span> 
+        <img class="logo rounded mx-auto d-block" src="imgs/logoBlue.png" alt="coffee">
     </div>
 
 </div>
 <!-- End of Container -->
 
 <!-- Footer -->
- <footer class="lightBlue">
+<footer class="light-blue-bg">
 
     <div class="row">
-        <div class="col-md-12 py-2">
+        <div class="col-md-12 py-2 text-center">
             <div class="mb-2">
                 <!-- Facebook -->
                 <a href="#">
-                    <img class="fImg" src="imgs/socialImgs/facebook.png" alt="facebook">
+                    <span>
+                        <i class="fab fa-facebook-square brown-text"></i>
+                    </span>
                 </a>
 
                 <!-- Instagram -->
                 <a href="#">
-                    <img class="iImg" src="imgs/socialImgs/instagram.png" alt="instagram">
+                    <span>
+                        <i class="fab fa-instagram-square brown-text"></i>
+                    </span>
                 </a>
 
                 <!-- Twitter -->
                 <a href="#">
-                    <img class="tImg" src="imgs/socialImgs/twitter.png" alt="twitter">
+                    <span>
+                        <i class="fab fa-twitter-square brown-text"></i>
+                    </span>
                 </a>
             </div>
         </div>

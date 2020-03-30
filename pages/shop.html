@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- End of Meta Tags -->
+
+    <!-- Css Links -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <!-- End of Css Links -->
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/trt7ljb.css">
+    <!-- End of Fonts -->
+
+    <!-- Title -->
+    <title>c&#60;3ffee</title>
+    <!-- End of Title -->
+</head>
+<body>
+
+<!-- Container -->
+<div class="shopContainer">
+        <!-- Nav Bar -->
+        <nav class="light-blue-bg navbar sticky-top navbar-light">
+            <!-- Hamburger Menu Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <i class="fas fa-bars brown-text"></i>
+                </span>
+            </button>
+            <!-- End of Hamburger Menu Button -->
+    
+        <!-- Nav List -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link text-left heading-three" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-left heading-three" href="../pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-left heading-three" href="../pages/shop.html">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link text-left heading-three" href="#">Cart</a>
+                </li>
+                <li class="nav-item dropdown heading-three">
+                <a class="nav-link text-left" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img class="logo rounded mx-auto d-block" src="../imgs/logo.png" alt="coffee">
+            </a> 
+            <!-- End of Logo -->
+            
+            <!-- Cart Icon -->
+            <span>
+                <a href="">
+                    <i class="fas fa-shopping-cart brown-text"></i> 
+                </a>
+            </span>
+            <!-- End of Cart Icon -->
+    
+        </nav>
+        <!-- End of Nav Bar -->
+    
+    <!-- Coffee Section -->
+    <div id="coffeeSection">
+        <button class="light-blue-bg shopBtn" type="button" onclick="openCoffeeProducts()">
+                <span class="coffeeShop display light-brown-text">Coffee</span> 
+                <img class="coffeeShopImg" src="../imgs/menuImgs/coffe.png" alt="coffee"> 
+        </button>
+    </div>
+    
+
+    <div id="CoffeeProducts" class="sideShop">
+
+        <!-- Back Button -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeCoffeeProducts()">
+            <i class="fas fa-arrow-left brown-text"></i>
+        </a>
+        <!-- End of Back Button -->
+
+        <!-- Drip Coffee Product -->
+       
+        <a href="../pages/about-drip-coffee.html" class="product-row row top-light-blue" id="drip-coffee-product">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/coffeMenuImages/drip.jpg" alt="drip coffee">
+            <!-- Desripttion -->
+            <p class="col-7 heading-one text-center mt-4 light-brown-text ">Drip</p>
+        </a>
+
+        <!-- French Press Product -->
+
+        <a href="../pages/about-french-press.html" class="row product-row" id="french-press-coffee-product">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/coffeMenuImages/frenchPress.jpg" alt="french press coffee">
+            <!-- Desripttion -->
+            <p class="col-7 heading-one text-center mt-3 light-brown-text">French Press</p>
+        </a>
+        <!-- End of French Press Product -->
+
+        <!-- Vacuum Pot Product -->
+        <a href="../pages/about-vaccum-pot.html" class="row product-row" id="vacuum-pot-coffee-product">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/coffeMenuImages/vacuumPot.jpg" alt="vacuum pot coffee">
+            <!-- Desripttion -->
+            <p class="col-7 heading-one text-center mt-3 light-brown-text"> Vacuum Pot </p>
+        </a>
+        <!-- End of Vacuum Pot Product -->
+    </div>
+    <!-- End of Coffee Section -->
+
+    <!-- Expresso Section -->
+    <div id="expressoSection">
+        <button class="light-blue-bg shopBtn" type="button" onclick="openExpressoProducts()">
+            <span class="display light-brown-text">Expresso</span> 
+            <img class="expressoShopImg" src="../imgs/menuImgs/expresso.png" alt="Expresso"> 
+        </button>
+    </div>
+
+    <div id="expressoProducts" class="sideShop">
+        <!-- Back Button -->
+        <a href="javascript:void(0)" class="closebtn text-center" onclick="closeExpressoProducts()">
+            <i class="fas fa-arrow-left brown-text text-center"></i>
+        </a>
+        <!-- End of Back Button -->
+
+        <!-- Expresso Product -->
+        <div class="expresso-product product-row lightBlue row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/expresso.jpg" alt="expresso">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Expresso</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">1.90</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">2.30</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">2.90</p>
+                        </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Drip Coffee Product -->
+
+        <!-- Macchiato Product -->
+        <div class="macchiato-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/macchiato.jpg" alt="macchiato">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Macchiato</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">3.00</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">3.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">4.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Macchiato Product -->
+
+        <!-- Latte Product -->
+        <div class="latte-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/latte.jpg" alt="latte">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Latte</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">5.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Latte Product -->
+
+        <!-- Cappuccino Product -->
+        <div class="cappuccino-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/cappuccino.jpg" alt="cappuccino">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Cappuccino</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">5.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Cappuccino Product -->
+
+        <!-- Con Panna Product -->
+        <div class="con-panna-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/cappuccino.jpg" alt="con panna">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Con Panna</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">5.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Con Panna Product -->
+
+        <!-- Cafe Miel Product -->
+        <div class="cafe-miel-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/cafe-miel.jpg" alt="cafe miel">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Cafe Miel</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">5.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Cafe Miel Product -->
+
+        <!-- Cafe Americano Product -->
+        <div class="cafe-americano-product lightBlue row product-row">
+            <!-- Image -->
+            <img class="col-4 coffee-product-image" src="../imgs/expressoMenuImages/cafe-americano.jpeg" alt="cafe americano">
+            <!-- Desripttion -->
+            <p class="col-3 heading-three">Cafe Miel</p>
+                <!-- Size & Price -->
+                <div class="col-4">
+                    <div class="row">
+                        <!-- Small -->
+                        <p class="normal col-6">Sm</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Medium -->
+                        <p class="normal col-6">M</p>
+                        <p class="bold col-6">4.50</p>
+                        <!-- Large -->
+                        <p class="normal col-6">Lg</p>
+                        <p class="bold col-6">5.00</p>
+                    </div>
+                </div>
+                <!-- End of Size & Price -->
+        </div>
+        <!-- End of Cafe Americano Product -->
+
+    </div>
+    <!-- End of Expresso Section -->
+
+    <!-- Tea Section -->
+    <button class="light-blue-bg shopBtn" type="button">
+        <a href="">
+          <span class="coffeeShop display light-brown-text">Tea</span> 
+          <img class="coffeeShopImg" src="../imgs/menuImgs/coffe.png" alt="coffee"> 
+        </a>
+    </button>
+    <!-- End of Tea Section -->
+
+    <!-- Smoothies Section -->
+    <button class="light-blue-bg shopBtn" type="button">
+        <a href="">
+          <span class="coffeeShop display light-brown-text">Smoothies</span> 
+          <img class="coffeeShopImg" src="../imgs/menuImgs/coffe.png" alt="coffee"> 
+        </a>
+    </button>
+    <!-- End of Smoothies Section -->
+
+    <!-- Drinks Section -->
+    <button class="light-blue-bg shopBtn" type="button">
+        <a href="">
+          <span class="coffeeShop display light-brown-text">Drinks</span> 
+          <img class="coffeeShopImg" src="../imgs/menuImgs/coffe.png" alt="coffee"> 
+        </a>
+    </button>
+    <!-- End of Drink Section -->
+
+    <!-- Pastries Section -->
+    <button class="light-blue-bg shopBtn" type="button">
+        <a href="">
+          <span class="coffeeShop display light-brown-text">Pastries</span> 
+          <img class="coffeeShopImg" src="../imgs/menuImgs/coffe.png" alt="coffee"> 
+        </a>
+    </button>
+    <!-- End of Pastries Section -->
+
+</div>
+<!-- End of Container -->
+
+<!-- Footer -->
+<footer class="light-blue-bg">
+
+    <div class="row">
+        <div class="col-md-12 py-2 text-center">
+            <div class="mb-2">
+                <!-- Facebook -->
+                <a href="#">
+                    <span>
+                        <i class="fab fa-facebook-square brown-text"></i>
+                    </span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#">
+                    <span>
+                        <i class="fab fa-instagram-square brown-text"></i>
+                    </span>
+                </a>
+
+                <!-- Twitter -->
+                <a href="#">
+                    <span>
+                        <i class="fab fa-twitter-square brown-text"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ </footer>
+<!-- End of Footer -->
+
+
+    <!-- JS Links -->
+    <script src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- End of JS Links -->
+</body>
+</html>
